@@ -6,7 +6,7 @@
     "husky": "^5.0.9",
     "pinst": "^2.1.4"
   },
-  "name": "boilerplate",
+  "name": "monorepo",
   "private": true,
   "scripts": {
     "test": "yarn workspaces -p run test"
