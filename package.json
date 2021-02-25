@@ -11,5 +11,16 @@
   "scripts": {
     "test": "yarn workspaces -p run test"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "actions/*",
+      "blocks/*",
+      "buckets/*",
+      "elements/*",
+      "models/*",
+      "pixels/*",
+      "shared/*"
+    ]
+  }
 }
