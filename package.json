@@ -9,6 +9,7 @@
   "name": "monorepo",
   "private": true,
   "scripts": {
+    "post-install": "husky install",
     "test": "yarn workspaces -p run test"
   },
   "version": "1.0.0",
