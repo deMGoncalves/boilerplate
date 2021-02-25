@@ -8,6 +8,7 @@
   },
   "main": "dist/index.js",
   "name": "boilerplate",
+  "private": true,
   "scripts": {
     "test": "yarn workspaces -p run test"
   },
